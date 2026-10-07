@@ -8,3 +8,4 @@ response_*.csv
 request_*.json
 data/
 out/
+!examples/request_example.json
