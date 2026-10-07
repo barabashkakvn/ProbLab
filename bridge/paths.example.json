@@ -1,0 +1,6 @@
+{
+  "_": "Copy to paths.json (not in git) and put your own paths. Empty value = default / auto-detect.",
+  "terminal": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+  "terminal_data": "",
+  "common_files": ""
+}

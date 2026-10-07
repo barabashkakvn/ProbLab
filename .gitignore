@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.ex5
+*.tmp
+*.log
+paths.json
+response_*.csv
+request_*.json
+data/
+out/

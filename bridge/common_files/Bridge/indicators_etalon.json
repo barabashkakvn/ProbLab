@@ -1,0 +1,725 @@
+{
+  "indicators": {
+    "iAC": {
+      "mql5_call": "iAC",
+      "params": [],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iAD": {
+      "mql5_call": "iAD",
+      "params": [
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iADX": {
+      "mql5_call": "iADX",
+      "params": [
+        {
+          "name": "adx_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0,
+        "plus": 1,
+        "minus": 2
+      }
+    },
+    "iADXWilder": {
+      "mql5_call": "iADXWilder",
+      "params": [
+        {
+          "name": "adx_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0,
+        "plus": 1,
+        "minus": 2
+      }
+    },
+    "iAlligator": {
+      "mql5_call": "iAlligator",
+      "params": [
+        {
+          "name": "jaw_period",
+          "type": "int"
+        },
+        {
+          "name": "jaw_shift",
+          "type": "int"
+        },
+        {
+          "name": "teeth_period",
+          "type": "int"
+        },
+        {
+          "name": "teeth_shift",
+          "type": "int"
+        },
+        {
+          "name": "lips_period",
+          "type": "int"
+        },
+        {
+          "name": "lips_shift",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "jaw": 0,
+        "teeth": 1,
+        "lips": 2
+      }
+    },
+    "iAMA": {
+      "mql5_call": "iAMA",
+      "params": [
+        {
+          "name": "ama_period",
+          "type": "int"
+        },
+        {
+          "name": "fast_ma_period",
+          "type": "int"
+        },
+        {
+          "name": "slow_ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ama_shift",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iAO": {
+      "mql5_call": "iAO",
+      "params": [],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iATR": {
+      "mql5_call": "iATR",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iBearsPower": {
+      "mql5_call": "iBearsPower",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iBands": {
+      "mql5_call": "iBands",
+      "params": [
+        {
+          "name": "bands_period",
+          "type": "int"
+        },
+        {
+          "name": "bands_shift",
+          "type": "int"
+        },
+        {
+          "name": "deviation",
+          "type": "double"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "base": 0,
+        "upper": 1,
+        "lower": 2
+      }
+    },
+    "iBullsPower": {
+      "mql5_call": "iBullsPower",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iCCI": {
+      "mql5_call": "iCCI",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iChaikin": {
+      "mql5_call": "iChaikin",
+      "params": [
+        {
+          "name": "fast_ma_period",
+          "type": "int"
+        },
+        {
+          "name": "slow_ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iCustom": {
+      "mql5_call": "iCustom",
+      "params": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "buffers": {}
+    },
+    "iDEMA": {
+      "mql5_call": "iDEMA",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iDeMarker": {
+      "mql5_call": "iDeMarker",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iEnvelopes": {
+      "mql5_call": "iEnvelopes",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        },
+        {
+          "name": "deviation",
+          "type": "double"
+        }
+      ],
+      "buffers": {
+        "upper": 0,
+        "lower": 1
+      }
+    },
+    "iForce": {
+      "mql5_call": "iForce",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iFractals": {
+      "mql5_call": "iFractals",
+      "params": [],
+      "buffers": {
+        "upper": 0,
+        "lower": 1
+      }
+    },
+    "iFrAMA": {
+      "mql5_call": "iFrAMA",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iGator": {
+      "mql5_call": "iGator",
+      "params": [
+        {
+          "name": "jaw_period",
+          "type": "int"
+        },
+        {
+          "name": "jaw_shift",
+          "type": "int"
+        },
+        {
+          "name": "teeth_period",
+          "type": "int"
+        },
+        {
+          "name": "teeth_shift",
+          "type": "int"
+        },
+        {
+          "name": "lips_period",
+          "type": "int"
+        },
+        {
+          "name": "lips_shift",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "upper": 0,
+        "lower": 2
+      }
+    },
+    "iIchimoku": {
+      "mql5_call": "iIchimoku",
+      "params": [
+        {
+          "name": "tenkan_sen",
+          "type": "int"
+        },
+        {
+          "name": "kijun_sen",
+          "type": "int"
+        },
+        {
+          "name": "senkou_span_b",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "tenkan_sen": 0,
+        "kijun_sen": 1,
+        "senkou_span_a": 2,
+        "senkou_span_b": 3,
+        "chikou_span": 4
+      }
+    },
+    "iBWMFI": {
+      "mql5_call": "iBWMFI",
+      "params": [
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iMomentum": {
+      "mql5_call": "iMomentum",
+      "params": [
+        {
+          "name": "mom_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iMFI": {
+      "mql5_call": "iMFI",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iMA": {
+      "mql5_call": "iMA",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iOsMA": {
+      "mql5_call": "iOsMA",
+      "params": [
+        {
+          "name": "fast_ema_period",
+          "type": "int"
+        },
+        {
+          "name": "slow_ema_period",
+          "type": "int"
+        },
+        {
+          "name": "signal_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iMACD": {
+      "mql5_call": "iMACD",
+      "params": [
+        {
+          "name": "fast_ema_period",
+          "type": "int"
+        },
+        {
+          "name": "slow_ema_period",
+          "type": "int"
+        },
+        {
+          "name": "signal_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0,
+        "signal": 1
+      }
+    },
+    "iOBV": {
+      "mql5_call": "iOBV",
+      "params": [
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iSAR": {
+      "mql5_call": "iSAR",
+      "params": [
+        {
+          "name": "step",
+          "type": "double"
+        },
+        {
+          "name": "maximum",
+          "type": "double"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iRSI": {
+      "mql5_call": "iRSI",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iRVI": {
+      "mql5_call": "iRVI",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0,
+        "signal": 1
+      }
+    },
+    "iStdDev": {
+      "mql5_call": "iStdDev",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iStochastic": {
+      "mql5_call": "iStochastic",
+      "params": [
+        {
+          "name": "Kperiod",
+          "type": "int"
+        },
+        {
+          "name": "Dperiod",
+          "type": "int"
+        },
+        {
+          "name": "slowing",
+          "type": "int"
+        },
+        {
+          "name": "ma_method",
+          "type": "ENUM_MA_METHOD"
+        },
+        {
+          "name": "price_field",
+          "type": "ENUM_STO_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0,
+        "signal": 1
+      }
+    },
+    "iTEMA": {
+      "mql5_call": "iTEMA",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iTriX": {
+      "mql5_call": "iTriX",
+      "params": [
+        {
+          "name": "ma_period",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iWPR": {
+      "mql5_call": "iWPR",
+      "params": [
+        {
+          "name": "calc_period",
+          "type": "int"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iVIDyA": {
+      "mql5_call": "iVIDyA",
+      "params": [
+        {
+          "name": "cmo_period",
+          "type": "int"
+        },
+        {
+          "name": "ema_period",
+          "type": "int"
+        },
+        {
+          "name": "ma_shift",
+          "type": "int"
+        },
+        {
+          "name": "applied_price",
+          "type": "ENUM_APPLIED_PRICE"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    },
+    "iVolumes": {
+      "mql5_call": "iVolumes",
+      "params": [
+        {
+          "name": "applied_volume",
+          "type": "ENUM_APPLIED_VOLUME"
+        }
+      ],
+      "buffers": {
+        "main": 0
+      }
+    }
+  }
+}
