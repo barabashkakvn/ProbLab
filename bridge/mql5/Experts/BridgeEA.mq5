@@ -1,9 +1,9 @@
 //+------------------------------------------------------------------+
 //|                                                     BridgeEA.mq5 |
-//|                              Copyright © 2026, Vladimir Karputov |
+//|                             Copyright © 2026, Volodymyr Karputov |
 //|                      https://www.mql5.com/en/users/barabashkakvn |
 //+------------------------------------------------------------------+
-#property copyright "Copyright © 2026, Vladimir Karputov"
+#property copyright "Copyright © 2026, Volodymyr Karputov"
 #property link      "https://www.mql5.com/en/users/barabashkakvn"
 #property version   "1.001"
 #property description "Reads declarative JSON requests written by Python, calculates"
