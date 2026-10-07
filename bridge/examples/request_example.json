@@ -1,0 +1,41 @@
+{
+  "request_id": "a3f5b9c2",
+  "symbol": "EURUSD",
+  "timeframe": "PERIOD_H1",
+  "start_date": "2024.01.01",
+  "end_date": "2024.03.01",
+  "indicators": [
+    {
+      "name": "iRSI",
+      "params": {
+        "ma_period": 14,
+        "applied_price": "PRICE_CLOSE"
+      },
+      "buffers": {
+        "rsi14": 0
+      }
+    },
+    {
+      "name": "iMACD",
+      "params": {
+        "fast_ema_period": 12,
+        "slow_ema_period": 26,
+        "signal_period": 9,
+        "applied_price": "PRICE_CLOSE"
+      },
+      "buffers": {
+        "macd_main": 0,
+        "macd_signal": 1
+      }
+    },
+    {
+      "name": "iATR",
+      "params": {
+        "ma_period": 14
+      },
+      "buffers": {
+        "atr14": 0
+      }
+    }
+  ]
+}
