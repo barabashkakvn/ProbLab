@@ -42,6 +42,9 @@ No terminal skills needed beyond copying a few lines.
 3. **Install [Python](https://www.python.org/downloads/) 3.10 or newer** and
    on the first installer screen tick **"Add python.exe to PATH"**. Without
    it Windows will not find `python` and `pip`.
+
+   <img src="docs/python_add_to_path.png" alt="Python installer: tick Add python.exe to PATH" width="560">
+
 4. **MetaTrader 5** from your broker — a demo account is enough.
 
 **Opening PowerShell in the right folder.** In Explorer open the
