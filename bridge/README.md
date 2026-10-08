@@ -26,9 +26,30 @@ request_{id}.json  ───────────────► read, valida
                    ◄─────────────── response_{id}.csv, then delete request
 ```
 
-## Five-minute start
+## Before you start
 
-Windows, MetaTrader 5, Python 3.10+.
+No terminal skills needed beyond copying a few lines.
+
+1. **Get the code with [GitHub Desktop](https://desktop.github.com/).**
+   *File → Clone repository → URL* →
+   `https://github.com/barabashkakvn/ProbLab` → choose a *Local path* → *Clone*.
+   No GitHub Desktop? On the GitHub page press *Code → Download ZIP* and unzip.
+2. **Choose the folder wisely.**
+   - **Not** inside `C:\Program Files` — Windows does not let programs write there.
+   - **Not** inside a folder synced by OneDrive (often *Documents* and
+     *Desktop*) — the sync locks files while MetaTrader and Python write them.
+   - Good: `C:\Users\<you>\ProbLab` or `D:\ProbLab`.
+3. **Install [Python](https://www.python.org/downloads/) 3.10 or newer** and
+   on the first installer screen tick **"Add python.exe to PATH"**. Without
+   it Windows will not find `python` and `pip`.
+4. **MetaTrader 5** from your broker — a demo account is enough.
+
+**Opening PowerShell in the right folder.** In Explorer open the
+`ProbLab\bridge` folder, right-click an empty space → *Open in Terminal*.
+The prompt then already ends with `...\ProbLab\bridge>` and you can paste
+the commands below.
+
+## Five-minute start
 
 ```powershell
 pip install -r requirements.txt

@@ -15,14 +15,9 @@ spot here; it is the main value.**
 why MT5's ATR is not the textbook ATR (typical gap 9 %, worst 59 %).
 
 You need: Windows, MetaTrader 5 (any broker, demo account is fine),
-Python 3.10+.
-
-```powershell
-git clone https://github.com/barabashkakvn/ProbLab.git
-cd ProbLab\bridge
-pip install -r requirements.txt
-python install.py
-```
+Python 3.10+ and [GitHub Desktop](https://desktop.github.com/) (or just
+*Code → Download ZIP*). Step by step, for non-programmers too:
+[Before you start](bridge/README.md#before-you-start).
 
 ## What is inside
 
