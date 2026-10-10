@@ -181,6 +181,9 @@ def lookahead_warnings(request: dict) -> list[str]:
         if name == "iIchimoku" and 4 in ind["buffers"].values():
             warns.append("iIchimoku buffer 4 (chikou_span) at bar t holds "
                          "close[t + kijun_sen]")
+        if name == "iFractals":
+            warns.append("iFractals: a fractal at bar t needs bars t+1 and "
+                         "t+2 - it is known only 2 bars later")
         for key, value in ind["params"].items():
             if key.endswith("shift") and isinstance(value, (int, float)) \
                     and value < 0:

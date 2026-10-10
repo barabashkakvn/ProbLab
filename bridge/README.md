@@ -172,7 +172,9 @@ time (broker server time), bid prices, buffers with 8 decimals, oldest first.
 1. **Look-ahead.** A buffer value on bar `t` is computed from `close[t]` —
    unknown when bar `t` opens. For a decision at the open of `t`, use row
    `t-1`. `iIchimoku` buffer 4 (`chikou_span`) holds `close[t + kijun]` — the
-   future. A negative `*_shift` pulls future bars into `t`. The client prints
+   future. `iFractals` (any buffer): a fractal on bar `t` checks bars `t+1`
+   and `t+2`, so it is known only 2 bars later. A negative `*_shift` pulls
+   future bars into `t`. The client prints
    `[warn]` for these.
 2. **The first request for a new symbol often fails** — the terminal is still
    loading history. The client retries with a fresh request id.
